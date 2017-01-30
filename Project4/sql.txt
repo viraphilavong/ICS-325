@@ -1,0 +1,38 @@
+CREATE TABLE users(
+uid INTEGER AUTO_INCREMENT PRIMARY KEY,
+username VARCHAR(8) NOT NULL,
+password VARCHAR(40) NOT NULL,
+name VARCHAR(30),
+address VARCHAR(40) NOT NULL,
+city VARCHAR(30),
+state VARCHAR(2),
+zip VARCHAR(5) NOT NULL,
+email VARCHAR(40),
+adminFlag INTEGER);
+
+CREATE TABLE product(
+pid INTEGER AUTO_INCREMENT PRIMARY KEY,
+category VARCHAR(8) NOT NULL,
+title VARCHAR(40) NOT NULL,
+cost DOUBLE,
+price DOUBLE
+quantity INTEGER);
+
+CREATE TABLE category(
+cid INTEGER AUTO_INCREMENT PRIMARY KEY,
+category VARCHAR(8) NOT NULL);
+
+
+INSERT INTO users VALUES (1, "wanny", sha1("password"), "wanny hoang", "1234 E 7th Street", "Saint Paul", "MN", "55101", "wanny@live.com", 1);
+
+INSERT INTO users VALUES (2, "alex", sha1("password"), "alex philavong", "1234 E 7th Street", "Saint Paul", "MN", "55101", "alex@live.com", 1);
+
+INSERT INTO users VALUES (3, "marty", sha1("password"), "marty austin", "1234 E 7th Street", "Saint Paul", "MN", "55101", "marty@live.com", 0);
+
+INSERT INTO product VALUES (2, "Comic Books", "Superman #1", 10000, 50000, 1);
+
+INSERT INTO product VALUES (2, "Movies", "Ant Man", 1.59, 14.99, 50);
+
+INSERT into category VALUES (1, "Comic Books");
+
+INSERT into category VALUES (2, "Movies");
