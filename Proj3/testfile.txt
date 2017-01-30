@@ -1,0 +1,2 @@
+admin|passw0rd|Name|Address|City|MN|54321|email@email.com
+username|password|name|address|city|AL|54321|email@email.com

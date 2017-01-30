@@ -1,0 +1,2 @@
+"07:35, 15th June 2016"|"USERNAME"|"PASSWORD"|"NAME"|"ADDRESS"|"CITY"|"Iowa"|"54321"|"EMAIL@EMAIL.COM"|"Male"|"1998-05-23"|"COMMENT"
+"07:53, 15th June 2016"|"TestingUs"|"testingpass"|"adr"|"7846 Xerxes Ct N"|"Brooklyn Park"|"Minnesota"|"55444"|"alexander.philavong.0640@gmail.com"|"Male"|"1998-05-23"|"cmt"
